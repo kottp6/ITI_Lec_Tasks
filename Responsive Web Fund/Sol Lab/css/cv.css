@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    gap: 10px;
+    margin: 0;
+}
+
+.header {
+    grid-column: span 16;
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 3vw;
+}
+
+
+.profile {
+    grid-column: span 4;
+    text-align: center;
+} 
+.profile img {
+    max-width: 80%;
+    border-radius: 50%;
+}
+
+
+.content {
+    grid-column: span 12;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+
+.footer {
+    grid-column: span 16;
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .profile {
+        grid-column: span 12;
+    }
+    .content {
+        grid-column: span 16;
+    }
+}
+
+/* Float */
+
+/* body{
+    margin: 0;
+}
+
+.header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 3vw;
+    width: 100%;
+}
+
+.nav {
+    background: #0056b3;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.profile {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right: 5%;
+}
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+.content {
+    width: 65%;
+    float: left;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+
+.footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    width: 100%;
+} 
+
+
+@media (max-width: 768px) {
+    .profile, .content {
+        width: 100%;
+        float: none;
+    }
+}
+*/
+
+/* flex */
+
+/* body {
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 3vw;
+    width: 100%;
+}
+
+.nav {
+    background: #0056b3;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.profile {
+    flex: 1;
+    max-width: 30%;
+    text-align: center;
+}
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+.content {
+    flex: 2;
+    max-width: 65%;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+
+.footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile, .content {
+        max-width: 100%;
+    }
+} */
+
+/* based Columns */
+/* body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 3vw;
+    width: 100%;
+}
+
+
+.nav {
+    background: #0056b3;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.profile {
+    grid-column: span 5;
+    text-align: center;
+}
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.content {
+    grid-column: span 11;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+    .profile, .content {
+        grid-column: span 1;
+    }
+} */
