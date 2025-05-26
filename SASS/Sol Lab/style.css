@@ -1,0 +1,94 @@
+body {
+  background-color: #fff;
+}
+
+.button {
+  border-radius: 10px;
+  background-color: orange;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+.error, .success, .message {
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+h1 {
+  color: #3498db;
+}
+
+h2 {
+  color: #2ecc71;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 40%;
+}
+
+.col-3 {
+  width: 60%;
+}
+
+.col-4 {
+  width: 80%;
+}
+
+.col-5 {
+  width: 100%;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.lighten {
+  background-color: rgb(138.6359832636, 195.9581589958, 234.3640167364);
+}
+
+.darken {
+  background-color: rgb(25.4560669456, 96.1673640167, 143.5439330544);
+}
+
+.hsl-color {
+  background-color: hsl(120, 50%, 50%);
+}
+
+/*# sourceMappingURL=style.css.map */

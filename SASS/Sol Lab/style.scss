@@ -1,0 +1,115 @@
+//1 varaible
+$base-color: #fff;
+$btn-color : orange;
+$nav-color : red;
+
+body{
+  background-color: $base-color;
+}
+
+//mixin
+@mixin border-radius($radius) {
+    border-radius: $radius;
+  }
+  
+.button {
+@include border-radius(10px);
+background-color: $btn-color;
+}
+
+//nesting
+nav{
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li{
+            display: inline-block;
+
+            a{
+                text-decoration: none;
+                color: $nav-color;
+            }
+        }
+    }
+}
+
+//inhertance
+%message-shared{
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.message {
+    @extend %message-shared;
+}
+  
+.success {
+    @extend %message-shared;
+    border-color: green;
+}
+
+.error {
+    @extend %message-shared;
+    border-color: red;
+}
+
+@import 'variables';
+
+h1{
+    color:$first-color;
+}
+
+h2{
+    color:$second-color;
+}
+
+//if
+$theme:'dark';
+
+body{
+  @if $theme == 'dark' {
+    background-color: black;
+    color: white;
+  } @else {
+    background-color: white;
+    color: black;
+  }
+}
+
+
+//for
+@for $i from 1 through 5 {
+    .col-#{$i} {
+      width: 20% * $i;
+    }
+}
+//each
+$colors: red, green, blue;
+
+@each $color in $colors {
+  .text-#{$color} {
+    color: $color;
+  }
+}
+// lighten && darken
+$main-color: #3498db;
+
+.lighten {
+  background-color: lighten($main-color, 20%);
+}
+
+.darken {
+  background-color: darken($main-color, 20%);
+}
+
+//hsl
+$hue: 120;
+$saturation: 50%;
+$lightness: 50%;
+
+.hsl-color{
+  background-color: hsl($hue, $saturation, $lightness);
+}
