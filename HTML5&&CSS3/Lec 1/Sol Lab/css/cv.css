@@ -1,0 +1,153 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+body{
+    margin: 0;
+}
+.header{
+    background-color: rgba(0, 0, 255, 0.685);
+    padding: 20px;
+    color: #fff;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.header .header-image{
+    width: 30%;
+}
+
+.header .header-image img{
+    width: 50%;
+    border-radius: 50%;
+
+}
+
+
+/*  */
+
+article{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* background-color: blueviolet; */
+}
+
+.data{
+    width: 50%;
+    /* height: 100vh; */
+    /* background-color: red; */
+   
+    /* padding-left: 50px; */
+    /* margin: 0; */
+    margin-top: -240px;
+}
+
+.data h2{
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.eng {
+    border: 2px solid transparent;
+    width: 300px;
+    height: 25px;
+}
+.eng::-webkit-progress-bar {
+    background-color: rgb(0, 0, 0);
+    
+}
+.eng::-webkit-progress-value {
+    background-color: rgb(232, 99, 17);
+}
+
+.arb {
+    border: 2px solid transparent;
+    width: 300px;
+    height: 25px;
+}
+.arb::-webkit-progress-bar {
+    background-color: rgb(0, 0, 0);
+    
+}
+.arb::-webkit-progress-value {
+    background-color: rgb(60, 255, 0);
+}
+
+.spa {
+    border: 2px solid transparent;
+    width: 300px;
+    height: 25px;
+}
+.spa::-webkit-progress-bar {
+    background-color: rgb(0, 0, 0);
+    
+}
+.spa::-webkit-progress-value {
+    background-color: rgb(224, 8, 8);
+}
+
+
+
+
+.social-title{
+    margin-top: 80px;
+}
+
+.social{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.social-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social-data .face{
+    background-color: #00aaff;
+    padding: 20px;
+    color: #fff;
+    border-radius: 50%;
+}
+.social-data .twitter{
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+/*  */
+
+.ach-title{
+    background-color: rgba(0, 0, 255, 0.685);
+    color: white;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    background-color: rgba(0, 0, 255, 0.685);
+    width: 100%;
+    height: 80px;
+}
