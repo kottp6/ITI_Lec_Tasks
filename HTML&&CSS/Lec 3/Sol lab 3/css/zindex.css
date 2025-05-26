@@ -1,0 +1,27 @@
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.home{
+    background-image:url(../images/kottp.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+   
+}
+
+.title{
+    background-color: rgba(0, 0, 0, 0.644);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    z-index: 9999;
+    right: 6%;
+    bottom: 6%;
+}

@@ -1,0 +1,197 @@
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.home{
+    background-color:dodgerblue;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    padding: 10px;
+}
+
+.home .nav{
+    padding: 10px 0;
+    position: relative;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.nav-logo a{
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 18px 0;
+    
+}
+
+.nav-links ul{
+    text-decoration: none;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+.nav-links ul li{
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s color;
+}
+
+.nav-links ul li a:hover{
+    text-decoration: none;
+    color: #ff305b;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+
+.home .home-content{
+   display: flex;
+   align-items: space-between;
+   justify-content: space-between;
+   margin-top: 40px;
+}
+.home .home-content .content{
+    width: 50%;
+    margin-left: 40px;
+}
+
+.home .home-content .image{
+    width: 50%;
+}
+.home .home-content .image img{
+    width: 70%;
+
+}
+.home .home-content h1{
+    color: #fff;
+    font-size: 70px;
+}
+.home .home-content h1 span{
+    color : orange;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.home .home-content .content p{
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+
+}
+
+.home .home-content .content button{
+    text-transform:uppercase;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    letter-spacing: 8px;
+
+}
+
+
+/* End Section Home */
+
+/* Start Section About */
+.about{
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+}
+.about h2{
+    text-align: center;
+    
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    gap: 100px;
+}
+
+.about-content .about-image{
+    width: 50%;
+}
+
+.about-content .about-image img{
+    width: 70%;
+}
+
+.about-content .titles{
+    width: 50%;
+    margin-top: 20px;
+}
+
+/* End Section About */
+
+
+/* Start Section Services */
+
+.services{
+    background-color: #ccc;
+    margin-top: 50px;
+}
+
+.services h2{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.services-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* margin-top: 50px auto; */
+    width: 90%;
+    margin: auto;
+
+}
+
+.item{
+    background-color: #09c;
+    width: 33%;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.item .icon{
+    background-color: rgb(1, 179, 238);
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    color: #fff;
+}
+
+.item .item-name h3{
+    color: goldenrod;
+}
+
+.item .item-name p{
+    line-height: 30px;
+    padding: 10px;
+}

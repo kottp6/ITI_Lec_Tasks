@@ -1,0 +1,97 @@
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.pad{
+    width: 90%;
+    margin: auto;
+}
+
+/* Start Section Home */
+header{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    color: #fff;
+    width: 300px;
+}
+.content .titles{
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px;
+    color: #000;
+}
+
+.logo{
+    position: relative;
+}
+
+.logo img{
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -30%;
+}
+
+.logo i{
+    color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logo button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    color: gold;
+    border: 1px solid gold;
+    padding: 6px;
+    border-radius: 5px;
+}
+.logo p{
+    color: #000;
+}
+.name p{
+    font-weight: lighter;
+}
+
+.social i{
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.stat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.stat-item  p{
+    color:#09c;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #09c;
+    color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+
+/* End Section Home */

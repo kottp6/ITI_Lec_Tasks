@@ -1,0 +1,13 @@
+1- Backlinks 
+-> Backlinks play a crucial role in Search Engine Optimization (SEO) because they
+signal to search engines like Google that other websites find your content valuable and worth linking to
+
+2-What’re meta tags? And what’re its benefits and uses? 
+They provide metadata about the webpage, such as its title, description, keywords, 
+and other information that helps search engines and browsers understand the content and context of the page
+
+3-What are search engines? And how it work?
+Search engines are web-based tools that help users find information on the internet by searching for specific keywords or phrases
+
+4-What’s SEO?
+SEO stands for Search Engine Optimization . It is the practice of improving a website's visibility and ranking on search engine results pages

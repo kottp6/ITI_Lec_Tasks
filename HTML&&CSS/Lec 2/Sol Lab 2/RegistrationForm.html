@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="font-family: Arial, sans-serif;margin: 20px;background-color: #f4f4f9;">
+    <div style="background-color: white;padding: 20px;border-radius: 8px;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);max-width: 600px;margin: auto;">
+        <h1 style="text-align: center; color: #f44336;">Contact Me</h1>
+        <form action="Thankyou.html" method="get" enctype="multipart/form-data">
+            <!-- First Name -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="first_name" accesskey="k">First Name:</label>
+                <input style="width: 96%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" type="text" id="first_name" name="first_name" required tabindex="1">
+            </div>
+    
+            <!-- Last Name -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="last_name" accesskey="l">Last Name:</label>
+                <input style="width: 96%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" type="text" id="last_name" name="last_name" required tabindex="2">
+            </div>
+    
+            <!-- Email -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="email"  accesskey="e">Email:</label>
+                <input list="emails" style="width: 96%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" type="email" id="email" name="email" required tabindex="3">
+                <datalist id="emails">
+                    <option value="kottp@gmail.com">
+                    <option value="kottphussein@gmail.com">
+                    <option value="kottpkamal@gmail.com">
+                    <option value="kottpsayed@gmail.com">
+                    <option value="anas@gmail.com">
+                </datalist>
+            </div>
+    
+            <!-- Password -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="password" accesskey="o">Password:</label>
+                <input style="width: 96%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" type="password" id="password" name="password" required tabindex="4">
+            </div>
+    
+            <!-- Repeat Password -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="repeat_password" accesskey="r">Repeat Password:</label>
+                <input style="width: 96%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" type="password" id="repeat_password" name="repeat_password" required tabindex="5">
+            </div>
+    
+            <!-- Birth Date -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="birth_date" accesskey="b">Birth Date:</label>
+                <input style="width: 96%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" type="date" id="birth_date" name="birth_date" tabindex="6">
+            </div>
+    
+            <!-- User Picture -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="user_picture" accesskey="u">User Picture:</label>
+                <input style="width: 96%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" type="file" id="user_picture" name="user_picture" tabindex="7">
+            </div>
+    
+            <!-- Gender -->
+            <fieldset style="border: 1px solid #ccc;padding: 10px;border-radius: 5px;margin-bottom: 15px;">
+                <legend>Gender:</legend>
+                <label style="font-weight: bold;" for="male" accesskey="m">
+                    <input style="margin-right: 5px;" type="radio" id="male" name="gender" value="Male" required tabindex="8"> Male
+                </label>
+                <label style="font-weight: bold;" for="female" accesskey="f">
+                    <input style="margin-right: 5px;" type="radio" id="female" name="gender" value="Female" required tabindex="9"> Female
+                </label>
+            </fieldset>
+            <!-- Gender -->
+            <fieldset style="border: 1px solid #ccc;padding: 10px;border-radius: 5px;margin-bottom: 15px;">
+                <legend>Your opinion on the website:</legend>
+                <label style="font-weight: bold;" for="verygood" accesskey="v">
+                    <input style="margin-right: 5px;" type="radio" id="verygood" name="opinion" value="VeryGood" required tabindex="8"> Very Good
+                </label>
+                <label style="font-weight: bold;" for="good" accesskey="g">
+                    <input style="margin-right: 5px;" type="radio" id="good" name="opinion" value="Good" required tabindex="9"> Good
+                </label>
+                <label style="font-weight: bold;" for="fair" accesskey="r">
+                    <input style="margin-right: 5px;" type="radio" id="fair" name="opinion" value="Fair" required tabindex="9"> Fair
+                </label>
+            </fieldset>
+            
+    
+            <!-- You know about my website from: -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="website" accesskey="c">You know about my website from:</label>
+                <select multiple style="width: 100%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" id="website" name="website" required tabindex="10">
+                    <option value="">Select Option</option>
+                    <option value="internet">Internet</option>
+                    <option value="friend">Friend</option>
+                    <option value="search">Search</option>
+                    <option value="engine">Engine</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+             <!-- Marital status -->
+             <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="website" accesskey="w">Marital status:</label>
+                <select style="width: 100%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" id="website" name="website" required tabindex="10">
+                    <option value="">Select Option</option>
+                    <option value="internet">Single</option>
+                    <option value="friend">Married</option>
+                    <option value="search" selected>Other</option>
+                </select>
+            </div>
+
+    
+            <!-- Interests -->
+            <fieldset style="border: 1px solid #ccc;padding: 10px;border-radius: 5px;margin-bottom: 15px;">
+                <legend>Interests:</legend>
+                <label style="font-weight: bold;" for="programming" accesskey="p">
+                    <input type="checkbox" id="programming" name="interests[]" value="Programming" tabindex="11"> Programming
+                </label>
+                <label style="font-weight: bold;" for="reading" accesskey="r">
+                    <input type="checkbox" id="reading" name="interests[]" value="Reading" tabindex="12"> Reading
+                </label>
+                <label style="font-weight: bold;" for="swimming" accesskey="s">
+                    <input type="checkbox" id="swimming" name="interests[]" value="Swimming" tabindex="13"> Swimming
+                </label>
+            </fieldset>
+    
+            <!-- About You -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;" for="about_you" accesskey="a">About You:</label>
+                <textarea style="width: 96%;padding: 10px;margin-top: 5px;border: 1px solid #ccc;border-radius: 5px;" id="about_you" name="about_you" rows="4" required tabindex="14"></textarea>
+            </div>
+    
+            <!-- Terms and Conditions -->
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold;">
+                    <input type="checkbox" name="terms" required tabindex="15"> I agree to the 
+                    <a href="terms.html" target="_blank">terms and conditions</a>.
+                </label>
+            </div>
+    
+            <!-- Submit and Reset Buttons -->
+            <div style="text-align: center;">
+                <input style="padding: 10px 20px;margin: 5px;border-radius: 5px;cursor: pointer; background-color: #4CAF50;color: white;
+                border: none;" type="submit" value="Submit" accesskey="s">
+                <input style="padding: 10px 20px;margin: 5px;border-radius: 5px;cursor: pointer;background-color: #f44336;color: white;
+                border: none;" type="reset" value="Reset" accesskey="r">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

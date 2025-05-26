@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p, div, span {
+    font-family: "Lucida Calligraphy", cursive;
+}
+
+div > h1 {
+    text-align: center;
+}
+
+.btn{
+    padding: 15px 40px;
+    background-color: brown;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.site{
+    padding: 10px;
+}
+
+.site ul{
+    text-align: center;
+}
+
+
+.none-bullet-list {
+    list-style-type: none;
+}
+
+
+.site > ul> li > a {
+    color: red;
+    background-color: pink;
+    text-decoration: none;
+}
+
+.site >ul > li > a:hover {
+    color: pink;
+    background-color: red;
+}
+
+#content > h2 + p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#loginform {
+    border: 3px dashed rgb(20,70,60);
+    text-align: center;
+    padding: 10px;
+}
+
+input[type="text"] {
+    background-color: yellow;
+}
+input[type="text"]:focus {
+    background-color: white;
+}
+
+
+.tabled-bordered {
+    display: table-cell;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+
+span > p::after {
+    content: " Read this";
+    color: yellow;
+}
+
+#content > p#aboutus {
+    color: yellow;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p#aboutus {
+    color: red;
+}

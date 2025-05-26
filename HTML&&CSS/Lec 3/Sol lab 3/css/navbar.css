@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+ul{
+    text-decoration: none;
+    margin: 0;
+    background-color: #000000c9;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+li:hover{
+    background-color: green;
+}
+
+a{
+    color: #fff; 
+    text-decoration: none;
+}
+p{
+    line-height: 200px;
+    margin: 0;
+}
