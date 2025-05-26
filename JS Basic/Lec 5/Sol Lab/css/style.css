@@ -1,0 +1,30 @@
+:root{
+    --text-color : red;
+}
+
+p{
+    color: var(--text-color);
+}
+
+
+/* #tagid{
+    color: red;
+}
+p{
+    color: blue;
+} */
+
+/* p{
+    color: red !important;
+}
+#tagid{
+    color: blue;
+} */
+
+/* :root{
+    --text-color : red
+}
+
+p{
+    color: --text-color;
+} */

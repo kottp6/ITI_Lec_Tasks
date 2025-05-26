@@ -1,0 +1,103 @@
+/* .dic{
+    width: 50px;
+    height: 60px;
+    background-color: red;
+} */
+
+/* .error-message {
+    color: red;
+    display: none;
+}
+input.invalid {
+    background-color: gray;
+}
+input.valid {
+    background-color: white;
+} */
+
+
+/* 3 */
+
+/* label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+input:valid {
+    border-color: green;
+    background-color: #e6ffe6;
+}
+
+
+input:invalid {
+    border-color: red;
+    background-color: #ffebeb;
+}
+
+
+/* .error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+}
+
+ input:invalid + .error-message {
+    display: inline;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}  */
+
+/* 4 */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+
+input:valid + img.valid-feedback {
+    display: inline;
+}
+
+
+input:invalid + img.invalid-feedback {
+    display: inline;
+}
+
+img.valid-feedback, img.invalid-feedback {
+    display: none;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
